@@ -1,24 +1,24 @@
-# 🌍 AstroFlare
+# AstroFlare
 
 **AstroFlare** is an interactive, open-source planetary hazard and wildfire tracker built with **React**, **Leaflet**, and the **NASA EONET** (Earth Observatory Natural Event Tracker) API. It ingests real-time satellite telemetry to visualize active wildfires, severe storms, volcanoes, and sea ice anomalies on a high-performance glassmorphic map dashboard.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-- 🛰️ **Live NASA EONET Telemetry Feeds:** Real-time ingestion and categorization of global natural hazard data.
-- 📍 **Dynamic Marker Clustering:** Powered by `Leaflet.markercluster` with dark glassmorphic badges to eliminate marker overlap and visualize hotspot density.
-- ⏱️ **Temporal Playback Scrubber:** Interactive time-lapse slider with Play/Pause, step controls, 1x/2x/5x speed options, and a collapsible floating pill toggle.
-- 💨 **Environmental Overlays:** Integrated toggleable map layers for OpenWeatherMap wind vectors, WAQI (World Air Quality Index / PM2.5) heatmaps, and NASA GIBS true-color MODIS satellite imagery.
-- 🛡️ **Public Safety Proximity Alerts:**
+- **Live NASA EONET Telemetry Feeds:** Real-time ingestion and categorization of global natural hazard data.
+- **Dynamic Marker Clustering:** Powered by `Leaflet.markercluster` with dark glassmorphic badges to eliminate marker overlap and visualize hotspot density.
+- **Temporal Playback Scrubber:** Interactive time-lapse slider with Play/Pause, step controls, 1x/2x/5x speed options, and a collapsible floating pill toggle.
+- **Environmental Overlays:** Integrated toggleable map layers for OpenWeatherMap wind vectors, WAQI (World Air Quality Index / PM2.5) heatmaps, and NASA GIBS true-color MODIS satellite imagery.
+- **Public Safety Proximity Alerts:**
   - *"Am I in Danger?"* alert modal utilizing HTML5 Geolocation, Nominatim zip/city geocoding, and Turf.js spatial distance calculations (< 25 miles high-priority danger warning).
   - 15-Mile Infrastructure Risk Analysis querying nearby critical facilities (Hospitals, Schools, Fire Stations) via the Overpass OpenStreetMap API.
-- 📄 **Automated PDF Safety Briefing Export:** One-click client-side PDF document generator built with `jspdf` and `html2canvas`.
-- 🔥 **Fire Radiative Power (FRP) & Intensity Metrics:** Displays satellite thermal energy output (MW), intensity badges, and official EONET bulletin links (InciWeb, NASA Earth Observatory).
+- **Automated PDF Safety Briefing Export:** One-click client-side PDF document generator built with `jspdf` and `html2canvas`.
+- **Fire Radiative Power (FRP) & Intensity Metrics:** Displays satellite thermal energy output (MW), intensity badges, and official EONET bulletin links (InciWeb, NASA Earth Observatory).
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Frontend Core:** [React 17](https://react.dev/) / `react-scripts`
 - **Mapping & Visuals:** [Leaflet.js](https://leafletjs.com/) & `leaflet.markercluster`
@@ -34,7 +34,7 @@
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -88,7 +88,7 @@ Ensure you have the following installed on your machine:
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 AstroFlare/
@@ -118,7 +118,7 @@ AstroFlare/
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome! Feel free to check out the [Issues page](https://github.com/raushgit/AstroFlare/issues).
 
@@ -130,13 +130,7 @@ Contributions, issues, and feature requests are welcome! Feel free to check out 
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgements
+## Acknowledgements
 
 - NASA Earth Science Data and Information System ([ESDIS](https://www.earthdata.nasa.gov/)) for EONET & GIBS services.
 - OpenStreetMap contributors & Leaflet community.
