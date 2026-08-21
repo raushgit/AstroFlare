@@ -1,0 +1,48 @@
+{
+  "name": "wildfire-tracker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@iconify/icons-mdi": "^1.0.152",
+    "@iconify/react": "^4.1.1",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^12.1.5",
+    "@testing-library/user-event": "^13.5.0",
+    "@turf/turf": "^7.4.0",
+    "google-map-react": "^2.2.1",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^4.2.1",
+    "leaflet": "^1.9.4",
+    "leaflet.markercluster": "^1.5.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "cross-env NODE_OPTIONS=--no-deprecation react-scripts start",
+    "build": "cross-env NODE_OPTIONS=--no-deprecation react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0"
+  }
+}
